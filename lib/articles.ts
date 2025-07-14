@@ -6,7 +6,6 @@ import { remark } from "remark";
 import matter from "gray-matter";
 
 import type { ArticleItem } from "@/types";
-import { title } from "process";
 
 const articlesDirectory = path.join(process.cwd(), "articles");
 
